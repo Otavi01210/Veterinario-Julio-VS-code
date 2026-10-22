@@ -14,7 +14,7 @@ imagemApi()
 
 function Whatsapp(){
 
-const texto ="Olá! Vim pelo site da NomeAPP e gostaria de agendar um horário para o meu pet."
+const texto ="Olá! Vim pelo site do PetNeto e gostaria de agendar um horário para o meu pet."
 const textoFormatado =encodeURIComponent(texto)
 const url =  "https://wa.me/5544999204861?text=I" + textoFormatado;
 open(url,'_blank');
